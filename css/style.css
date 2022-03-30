@@ -1,0 +1,402 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  font-weight: normal;
+  color: #ffffff;
+  background-image: linear-gradient(
+    to right top,
+    #060606,
+    #050504,
+    #030303,
+    #020201,
+    #000000
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 130rem;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 5rem;
+  padding: 1rem 3rem;
+  color: #ffffff;
+  font-size: 1.6rem;
+}
+
+.text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 160%;
+  opacity: 0.5;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.title__logo {
+  width: 9.57rem;
+  height: 9.57rem;
+  margin-right: 2rem;
+}
+
+.section {
+  padding-top: 20rem;
+}
+
+.section__header {
+  display: flex;
+  align-items: end;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 100%;
+  padding: 4rem 11rem 4rem 8rem;
+  z-index: 10;
+}
+
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav {
+  padding-right: 5rem;
+}
+
+.header__nav a:not(:last-child) {
+  margin-right: 7.1rem;
+}
+
+.header__nav a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.header__logo {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+}
+
+.header__button {
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+
+.main-display {
+  padding-top: 27rem;
+}
+
+.main-display__header {
+  max-width: 76rem;
+  margin-bottom: 5rem;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+.main-display__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.main-display .container {
+  position: relative;
+  z-index: 10;
+}
+
+.main-display__timer {
+  display: flex;
+  margin-bottom: 7.6rem;
+}
+
+.main-display__button {
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+}
+
+.timer__item {
+  width: 10.2em;
+  height: 11.2em;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.timer__item:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.timer__count {
+  font-size: 3.6rem;
+}
+
+.timer__text {
+  font-size: 1.6rem;
+  opacity: 0.4;
+}
+
+.about__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about__image {
+  width: 52.6rem;
+  height: 49.9rem;
+  position: relative;
+  background: linear-gradient(
+      to right top,
+      #060606,
+      #050504,
+      #030303,
+      #020201,
+      #000000
+    ),
+    linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  background-origin: padding-box, border-box;
+  background-repeat: no-repeat;
+  border: 30px solid transparent;
+}
+
+.about__image img {
+  width: 44.6rem;
+  height: 44.6rem;
+  position: absolute;
+  bottom: -8rem;
+}
+
+.about__info {
+  width: 63.6rem;
+  padding-bottom: 4rem;
+}
+
+.about__title {
+  margin-bottom: 4.5rem;
+}
+
+.process__header {
+  margin-bottom: 5.1rem;
+}
+
+.process__text {
+  max-width: 37.3rem;
+  margin-bottom: 8rem;
+}
+
+.process__wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.process__item {
+  flex: 1;
+}
+
+.process__item-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 1.5rem;
+}
+
+.process__hr {
+  width: 32.9rem;
+  height: 2px;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  margin-bottom: 5.3rem;
+}
+
+.process__item-text {
+  font-size: 1.4rem;
+  padding-right: 2rem;
+}
+
+.team__header {
+  margin-bottom: 11.3rem;
+}
+
+.team__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team__item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team__item-image {
+  width: 19rem;
+  height: 19rem;
+  margin-bottom: 4rem;
+}
+
+.team__item-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 140%;
+  margin-bottom: 1.5rem;
+}
+
+.team__item-profession {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 160%;
+  opacity: 0.8;
+  margin-bottom: 3rem;
+}
+
+.team__button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5rem;
+  color: #ffffff;
+  padding: 1rem 3rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+
+.footer {
+  padding-bottom: 24.4rem;
+}
+
+.footer__wrap {
+  width: 81.3rem;
+  margin: 0 auto;
+}
+
+.footer__title {
+  margin-bottom: 3rem;
+}
+
+.footer__text {
+  text-align: center;
+  margin-bottom: 4.5rem;
+}
+
+.footer__button {
+  display: block;
+  margin: 0 auto 4rem auto;
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+}
+
+.social__wrap {
+  width: 29rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.social__item img {
+  width: 2.4rem;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #333333;
+  padding: 8rem;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 20;
+}
+
+.popup__wrap {
+  width: 47.4rem;
+  height: 37.1rem;
+}
+
+.popup__form {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.popup__form-input {
+  width: 45.4rem;
+  height: 4.4rem;
+  margin-left: 1rem;
+  margin-bottom: 1.6rem;
+  border-radius: 5rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #ffffff;
+  padding-left: 3rem;
+}
+
+.popup__form-button {
+  display: block;
+  width: 142px;
+  margin: 0 auto;
+  margin-top: 1.6rem;
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+}

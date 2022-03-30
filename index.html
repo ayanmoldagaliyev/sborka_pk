@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Сборка компьютера</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrap">
+        <a href="#" class="header__logo">
+          <img src="image/logo.svg" alt="logo" />
+        </a>
+        <nav class="header__nav">
+          <a href="#about">Чем занимаемся</a>
+          <a href="#process">Процесс работы</a>
+          <a href="#">Команда</a>
+        </nav>
+        <button type="button" class="button header__button">
+          Оставить заявку
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main-display">
+        <div class="container">
+          <h1 class="main-display__header">
+            Собираем игровой ПК под ваш бюджет
+          </h1>
+          <div class="timer main-display__timer">
+            <div class="timer__item">
+              <div class="timer__count">18</div>
+              <div class="timer__text">Дней</div>
+            </div>
+            <div class="timer__item">
+              <div class="timer__count">18</div>
+              <div class="timer__text">Часов</div>
+            </div>
+            <div class="timer__item">
+              <div class="timer__count">18</div>
+              <div class="timer__text">Минут</div>
+            </div>
+            <div class="timer__item">
+              <div class="timer__count">18</div>
+              <div class="timer__text">Секунд</div>
+            </div>
+          </div>
+          <button class="button main-display__button">Оставить заявку</button>
+        </div>
+        <div class="main-display__background">
+          <img src="image/main-screen__bgc.jpg" alt="main-screen__bgc" />
+        </div>
+      </section>
+      <section class="section about" id="about">
+        <div class="container">
+          <div class="about__wrap">
+            <div class="about__image">
+              <img src="image/system_block.png" alt="system_block" />
+            </div>
+            <div class="about__info">
+              <h2 class="title about__title">Чем мы занимаемся</h2>
+              <p class="text about__text">
+                Помогаем сэкономить до 40% стоимости игрового компьютера без
+                потери производительности. Подбираем мощные детали компьютера,
+                заказываем у своих поставщиков или напрямую у производителей,
+                чтобы сэкономить ваши деньги. Собираем мощный компьютер, на
+                котором можно играть в любые современные игры и заниматься
+                работой.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section process" id="process">
+        <div class="container">
+          <div class="section__header process__header">
+            <div class="title__logo">
+              <img src="image/icon-heading.svg" alt="" />
+            </div>
+            <h2 class="title process__title">Процесс работы</h2>
+          </div>
+          <p class="text process__text">
+            Подробно рассказываем о том, как происходит сборка, от заявки до
+            выдачи вашего заказа
+          </p>
+          <div class="process__wrap">
+            <div class="process__item">
+              <h3 class="process__item-title">Заявка</h3>
+              <hr class="process__hr" />
+              <p class="text process__item-text">
+                Мы получаем вашу заявку, связываемся с вами для уточнения
+                деталей, чтобы понять ваши ожидания от будущего компьютера.
+              </p>
+            </div>
+            <div class="process__item">
+              <h3 class="process__item-title">Подбор</h3>
+              <hr class="process__hr" />
+              <p class="text process__item-text">
+                После оплаты подбираем комплектующие, которые дадут максимальную
+                производительность. Заказываем их напрямую у поставщиков.
+              </p>
+            </div>
+            <div class="process__item">
+              <h3 class="process__item-title">Сборка</h3>
+              <hr class="process__hr" />
+              <p class="text process__item-text">
+                Собираем компьютер, проводим стартовую диагностику,
+                устанавливаем операционную систему и необходимые драйверы для
+                работы.
+              </p>
+            </div>
+            <div class="process__item">
+              <h3 class="process__item-title">Выдача</h3>
+              <hr class="process__hr" />
+              <p class="text process__item-text">
+                Отдаём компьютер вам в назначенный срок, проводим вместе
+                тестирование, подписываем документы о выполнении работы и
+                гарантии.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section team" id="team">
+        <div class="container">
+          <div class="section__header team__header">
+            <div class="title__logo">
+              <img src="image/icon-heading-2.svg" alt="" />
+            </div>
+            <h2 class="title process__title">Наша команда</h2>
+          </div>
+        </div>
+        <div class="team__wrap">
+          <div class="team__item">
+            <div class="team__item-image">
+              <img src="image/avatar-1.png" alt="" />
+            </div>
+            <span class="team__item-name">Евгений Петров</span>
+            <span class="team__item-profession">Специалист по видеокартам</span>
+            <button class="team__button">Биография</button>
+          </div>
+          <div class="team__item">
+            <div class="team__item-image">
+              <img src="image/avatar-2.png" alt="" />
+            </div>
+            <span class="team__item-name">Алексей Козлов</span>
+            <span class="team__item-profession">Специалист по видеокартам</span>
+            <button class="team__button">Биография</button>
+          </div>
+          <div class="team__item">
+            <div class="team__item-image">
+              <img src="image/avatar-3.png" alt="" />
+            </div>
+            <span class="team__item-name">Дмитрий Иванов</span>
+            <span class="team__item-profession">Специалист по видеокартам</span>
+            <button class="team__button">Биография</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="section footer">
+      <div class="footer__wrap">
+        <h2 class="title footer__title">Закажите свою уникальную сборку</h2>
+        <p class="text footer__text">
+          Мы свяжемся с вами, чтобы уточнить детали заказа
+        </p>
+        <button class="button footer__button">Оставить заявку</button>
+
+        <div class="social__wrap">
+          <a href="#" class="social__item">
+            <img src="image/vk.svg" alt="" />
+          </a>
+          <a href="#" class="social__item">
+            <img src="image/youtube.svg" alt="" />
+          </a>
+          <a href="#" class="social__item">
+            <img src="image/facebook.svg" alt="" />
+          </a>
+          <a href="#" class="social__item">
+            <img src="image/instagram.svg" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <div class="popup" id="popup">
+      <div class="popup__wrap">
+        <h2 class="title popup__title">Заявка на сборку ПК</h2>
+        <p class="text popup_text">
+          Мы свяжемся с вами, чтобы обсудить детали заказа
+        </p>
+        <form action="#" class="popup__form">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Как вас зовут"
+            class="popup__form-input"
+          />
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="Номер телефона"
+            class="popup__form-input"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="popup__form-input"
+          />
+          <input
+            type="submit"
+            id="form-submit"
+            class="button popup__form-button"
+            value="Отправить"
+          />
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
